@@ -1,0 +1,45 @@
+body {
+  /* background-color: rgb(233, 230, 230); */
+  margin: 0;
+  padding: 0;
+}
+
+#academic_conference ul li {
+  margin-bottom: 20px; /* 各発表の間に余白を追加 */
+  line-height: 1.8; /* 行間を広げる */
+}
+
+#header-placeholder {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  z-index: 1000; /* 他の要素より前面に表示 */
+}
+
+#skill ul {
+  list-style: none;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+.main-back {
+  padding-top: 130px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #e7e6e6;
+}
+.main-container {
+  width: 80%;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+h2 {
+  display: inline-block;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+}
